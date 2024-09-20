@@ -90,7 +90,7 @@ app.get("/todo", async (req, res) => {
     })
     
     res.json(todoOfUser,{
-        message: `here are your todos ${name}`// don't really know how this code will behave
+        message: `here are your todos ${name}`
     });  
 });
 
